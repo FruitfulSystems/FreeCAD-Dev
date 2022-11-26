@@ -8,7 +8,7 @@ Setup.sh will run you through the setup process for FreeCAD versions running in 
 
 ## v0.1
 
-This repo is in development: The goal of this main branch is to get it working for FreeCAD v0.19.2 as that is the version originally done in the aforementioned repo. If you run Setup.sh multiple times it will overwrite the directory structure it created in previous runs.
+This repo is in development: The goal of this main branch is to get it working for FreeCAD v0.19.2 (Does NOT currently work) as that is the version originally done in the aforementioned repo. If you run Setup.sh multiple times it will overwrite the directory structure it created in previous runs.
 
 ## Goals
 
@@ -18,7 +18,7 @@ v2.0 goals are to be able to run this cross platform with the same scripts.
   
     
 
-	
+
 
 ### FYI
 
