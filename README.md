@@ -1,6 +1,9 @@
 # FreeCAD Docker
 
-This Repository is based on the repo: https://gitlab.com/daviddaish/freecad_docker_env
+This Repository is built upon the repos: 
+- https://gitlab.com/daviddaish/freecad_docker_env
+- https://github.com/airvzxf/freecad-docker
+  
 
 It houses the build files for Docker images for FreeCAD Development Environments.
 
