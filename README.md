@@ -11,7 +11,7 @@ It houses the build files for Docker images for FreeCAD Development Environments
 
 The container image created by David Daish can be thought of as a container image of required dependencies for FreeCAD to built within. This means you still have to download the source code and compile right from the start. This workflow is sub-optimal as the dependency layer is different for each release. While possible to maintain over time, this seems to defeat the purpose of containers.
 
-The main branch is still in development. 
+This main branch is still in development. 
 
 The first goal is to get it working easily and as-is for FreeCAD v0.19.2 as that is the version used in the aforementioned repos.
 
@@ -22,7 +22,7 @@ Afterwards the todo is as follows:
 
 ## Setup
 
-Setup.sh will run you through the setup process so that FreeCAD can run in a container(Server) and forward the display through X window to your local dev environment.
+Setup.sh will run you through the setup process so that FreeCAD can run in a container and forward the display through X window to your local dev environment.
 
 CAUTION: If you run Setup.sh multiple times it will overwrite the directory structure it created in previous runs.
 
@@ -41,9 +41,6 @@ CAUTION: If you run Setup.sh multiple times it will overwrite the directory stru
 - Run Cross-Platform
   
     
-
-
-
 ### FYI
 
 I personally use a cloud development environment called gitpod.com, which is the simplest way to test this system out for yourself without touching your local machine. Gitpod offers a free tier if you want to try it out. Not a spokesperson, just love the product. If you would like to try it then you need to open https://github.com/JesseRigon/FreeCAD-GP in a gitpod workspace as it has configuration files needed to get this to work there. Additional directions will be on that repo's readme.
