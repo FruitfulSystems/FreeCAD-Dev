@@ -1,0 +1,34 @@
+version: "3.9"
+
+services:
+
+  FreeCAD:
+    container_name: "${FREECAD_CONTAINER_NAME}"
+    working_dir: /root
+    
+    image: ${FREECAD_BUILD_IMAGE}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - FREECAD_DEV_IMAGE=${FREECAD_DEV_IMAGE}
+    environment:
+      - DISPLAY=:0
+      - QT_X11_NO_MITSHM=1
+    tty: true
+    stdin_open: true
+    volumes:
+      - type: bind
+        source: ${SOURCE_FOLDER}
+        target: /mnt/source
+      - type: bind
+        source: ${BUILD_FOLDER}
+        target: /mnt/build
+      - type: bind
+        source: ${FILES_FOLDER}
+        target: /mnt/files
+      - type: bind
+        source: /tmp/.X11-unix
+        target: /tmp/.X11-unix
+        read_only: true
+    
