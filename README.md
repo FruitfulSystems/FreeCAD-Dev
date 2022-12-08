@@ -36,7 +36,7 @@ For the above reason, I believe the best way forward is to:
 
 These changes are needed but are outside the scope of this repo and therefore are not included in the following 
 
-### v1.0
+### v1.0  ***See branch v1.0***
   *other than fixing errors this list is currently done. Any further changes, or feature requests will be applied to v2.0
   
 - [ ] Create templates for creating and using personal forked repos and custom docker files.
@@ -46,7 +46,7 @@ These changes are needed but are outside the scope of this repo and therefore ar
 
 ### v2.0
 
-- [ ] Run Cross-Platform (while the docker image can be run cross-platform, obviously, the scripts are bash scripts and linux based; might work on mac) haven't tested
+- [ ] Run Cross-Platform (while the docker image can be run cross-platform, obviously, the scripts are bash scripts and linux based; should work on mac but haven't tested)
   
 ### FYI
 
